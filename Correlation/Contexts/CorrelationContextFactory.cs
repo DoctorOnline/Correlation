@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Http;
 namespace Correlation.Contexts
 {
     /// <inheritdoc cref="ICorrelationContextFactory" />
-    public sealed class CorrelationContextFactory : ICorrelationContextFactory
+    internal sealed class CorrelationContextFactory : ICorrelationContextFactory
     {
         private readonly ICorrelationContextAccessor _correlationContextAccessor;
 
