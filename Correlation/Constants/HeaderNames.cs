@@ -1,4 +1,7 @@
-﻿namespace Correlation.Constants
+﻿using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleToAttribute("Correlation.Tests")]
+namespace Correlation.Constants
 {
     internal static class HeaderNames
     {
